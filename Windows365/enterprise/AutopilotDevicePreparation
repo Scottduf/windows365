@@ -1,0 +1,50 @@
+---
+# required metadata
+title: Use Autopilot Device Preparation with Cloud PCs
+titleSuffix:
+description: Learn how to useAutopilot Device Preparation with Cloud PCs.
+keywords:
+author: ErikjeMS  
+ms.author: erikje
+manager: dougeby
+ms.date: 07/16/2024
+ms.topic: how-to
+ms.service: windows-365
+ms.subservice: windows-365-enterprise
+ms.localizationpriority: high
+ms.assetid: 
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+
+ms.reviewer: ericor
+ms.suite: ems
+search.appverid: MET150
+#ms.tgt_pltfrm:
+ms.custom: intune-azure; get-started
+ms.collection:
+- M365-identity-device-management
+- tier2
+---
+
+# Use Policy-driven Autopilot Device Preparation with Cloud PCs
+
+When provisioning Cloud PCs, you can optionally link Autopilot Device Preparation to help ensure devices are provisioned with important Intune Apps and Scritps. This option is currently availble only for Frontline devices in shared mode.
+Before you get started the steps below to link an Autopilot device prepration policy to Windows 365 Cloud PCs, learn about the requirements and how to create a [Policy-driven Autopilot Device Preparation Policy ][(autopilot/device-preparation/requirements.md)
+
+
+## Link Policy Driven Device Preparation Policies to Cloud PCs
+1. Create a new, or edit an existing W365 Provisioning Policy.  On the Configuration page of provisioning policy, use the dropdown to choose a Policy-driven Autopilot Device Preparation policy (DPP).
+2. Choose a value for "Minutes allowed before device preparation fails". You should allow adequate time to install the apps and scripts defined in your DPP.
+3. By default, Windows 365 will finish the provisioning process after the apps and scripts are successfully installed or the timeout value expires. If a failure or timeout occurs, Cloud PCs will be marked as "Provisionied with warnings" in the All Cloud PC list and users will be able to connect to them. Optionally, check the "Prevent users from connection to Cloud PC upon installation failure or timeout" option to force the provisioning result to "Failed" if there is a timeout or failure in DPP.
+
+
+## Monitor status of Device Preparation on Cloud PCs
+You can tell that DPP is working by reviewing the status of Cloud PCs during the provisioning process. After base provisioning has been completed (building Cloud PC and enrolling into Intune), devices will transition to "Preparing" status, visible in the All Cloud PCs list. While in this phase, you can navigate to the Autopilot Device Preparation status report in Intune so see granular status of App and Script installation. You can also navigate to this report directly by going to Intune Devices > Enrollment > Monitor > Windows Autopiot device preparation deployment status. 
+
+<!-- ########################## -->
+## Next steps
+
+[Learn more about Intune Device Prepration (/autopilot/device-preparation]
