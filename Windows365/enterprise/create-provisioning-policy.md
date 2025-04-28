@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 04/21/2025
+ms.date: 04/28/2025
 ms.topic: how-to
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -157,7 +157,7 @@ Windows 365 Frontline licenses are for both Frontline Cloud PCs in dedicated mod
 
 ## Concurrency management (public preview)<!--49324723-->
 
-If you select the option to create an assignment, the assignment defines the maximum concurrency limit for that group of users. When the concurrency limit is reached, subsequent users can't log on. They must wait for licenses to be freed up. The concurrency buffer is bound to the assignment and is counted based on the assignment license count instead of the total license count. You can see license usage across different assignments in the [Connected Frontline Cloud PCs report](report-connected-frontline-cloud-pcs.md). This feature is in [public preview](../public-preview.md).
+If you select the option to create an assignment, the assignment defines the maximum concurrency limit for that group of users. When the concurrency limit is reached, subsequent users can't log on. They must wait for licenses to be freed up. The concurrency buffer is bound to the assignment and is counted based on the assignment license count instead of the total license count. You can see license usage across different assignments in the [Connected Frontline Cloud PCs report](report-connected-frontline-cloud-pcs.md).
 
 <!-- ########################## -->
 ## Next steps
