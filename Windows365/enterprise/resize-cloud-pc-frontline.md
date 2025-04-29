@@ -33,7 +33,7 @@ ms.collection:
 
 You can use a provisioning policy to resize Windows 365 Frontline Cloud PCs in dedicated mode.
 
-Windows 365 Frontline Cloud PCs in shared mode can't be resized.
+Windows 365 Frontline Cloud PCs in shared mode can't be resized. 
 
 For more information about resizing, see [Cloud PC resizing overview](resize-cloud-pc.md).
 
