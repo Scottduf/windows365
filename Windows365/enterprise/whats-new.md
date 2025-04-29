@@ -61,7 +61,7 @@ For more information about public preview items, see [Public preview in Windows 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Device management
 
-### Regulation adherence guidance when placing a Cloud PC under review<!--57214800-->
+#### Regulation adherence guidance when placing a Cloud PC under review<!--57214800-->
 
 Adhere to SEC Rule 17a-4 by configuring Azure Blob storage for immutability. For more information, see [Place a Cloud PC under review](place-cloud-pc-under-review.md) and [Azure - Cohasset Assessment - WORM Storage (2024) Report](https://servicetrust.microsoft.com/DocumentPage/19b08fd4-d276-43e8-9461-715981d0ea20).
 
