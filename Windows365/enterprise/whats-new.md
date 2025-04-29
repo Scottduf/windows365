@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 04/21/2025
+ms.date: 04/28/2025
 ms.topic: whats-new
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -54,6 +54,16 @@ For more information about public preview items, see [Public preview in Windows 
 ### Windows 365 Government
 ### Windows 365 app 
 -->
+
+<!-- ########################## -->
+## Week of April 28, 2025
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Device management
+
+#### Guidance when placing a Cloud PC under review<!--57214800-->
+
+Adhere to SEC Rule 17a-4 by configuring Azure Blob storage for immutability. For more information, see [Place a Cloud PC under review](place-cloud-pc-under-review.md) and [Azure - Cohasset Assessment - WORM Storage (2024) Report](https://servicetrust.microsoft.com/DocumentPage/19b08fd4-d276-43e8-9461-715981d0ea20).
 
 <!-- ########################## -->
 ## Week of April 21, 2025
