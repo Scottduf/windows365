@@ -239,6 +239,8 @@ items:
             href: resize-cloud-pc-single.md
           - name: Resize multiple Cloud PCs
             href: resize-cloud-pc-bulk.md
+          - name: Resize Windows 365 Frontline Cloud PCs
+            href: resize-cloud-pc-frontline.md
         - name: Set idle session time limits
           href: frontline-cloud-pc-session-time-limits.md
       - name: Restore a Cloud PC
