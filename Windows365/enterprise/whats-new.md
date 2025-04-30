@@ -90,7 +90,7 @@ The Connected Frontline Cloud PCs report has moved out of preview and into gener
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Windows App
 
-#### Token protection (Preview) in Windows App on Windows devices<!--56337771-->
+#### Token protection (Preview) in Windows App on Windows devices<!--56337771--> 
 
 You can now use a Conditional Access policy to require token protection for sign-in tokens (refresh tokens) on Windows devices. Such policies can reduce attacks using token theft by ensuring a token is usable only from the intended device. For more information, see [Microsoft Entra Conditional Access token protection explained](/entra/identity/conditional-access/concept-token-protection).
 
