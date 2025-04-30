@@ -155,7 +155,7 @@ Admins can confirm the list of members who received Cloud PCs by reviewing the *
 
 Windows 365 Frontline licenses are for both Frontline Cloud PCs in dedicated mode and shared mode. Frontline Cloud PCs in dedicated mode are prioritized over shared mode when you add licenses.
 
-## Concurrency management (public preview)<!--49324723-->
+## Concurrency management<!--49324723-->
 
 If you select the option to create an assignment, the assignment defines the maximum concurrency limit for that group of users. When the concurrency limit is reached, subsequent users can't log on. They must wait for licenses to be freed up. The concurrency buffer is bound to the assignment and is counted based on the assignment license count instead of the total license count. You can see license usage across different assignments in the [Connected Frontline Cloud PCs report](report-connected-frontline-cloud-pcs.md).
 
