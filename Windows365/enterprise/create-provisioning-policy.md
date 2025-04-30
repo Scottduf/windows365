@@ -133,7 +133,7 @@ To select an ANC, follow these steps:
       - **None**. Manage and update Cloud PCs manually.
      - Frontline shared mode
        - **Windows Autopilot (Preview)** is a cloud service that ensures Intune applications and scripts are installed during initial enrollment and setup. Optionally choose a Device Preparation Profile from the list.  
-      
+
 9. Select **Next**.
 10. On the **Assignments** page, choose **Select groups** > choose the groups you want this policy assigned to > **Select**. Nested groups aren't currently supported.
 11. For Windows 365 Frontline dedicated mode, you must also select a Cloud PC size for each group in the policy. Choose **Select one** > select a size under **Available sizes** > **Select**. After you select a size for each group, select **Next**.
