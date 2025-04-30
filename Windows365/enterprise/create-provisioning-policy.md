@@ -74,7 +74,7 @@ A few things to keep in mind:
     - **Microsoft Entra Join**: You have two options for **Network**:
         - **Microsoft hosted network**: Select a **Geography** where you want your Cloud PCs provisioned. Then, for [**Region**](requirements.md#supported-azure-regions-for-cloud-pc-provisioning), you can select:
             - **Automatic (Recommended)** (*not supported for Frontline in shared mode*): The Windows 365 service automatically chooses a region within the selected geography at the time of provisioning. Microsoft strongly recommends using the **Automatic** option. This automation decreases the chance of provisioning failure.
-            - A specific region: This option makes sure that your Cloud PCs are only provisioned in the region that you choose. Regions are grayed out when both Cloud PC and GPU are unavailable.
+            - A specific region: This option makes sure that your Cloud PCs are only provisioned in the region that you choose.
         - **Azure network connection**: Select an Azure network connection (ANC) to use for this policy.
     - **Hybrid Microsoft Entra join**: You must select an ANC to use for this policy.
 
