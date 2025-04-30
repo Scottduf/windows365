@@ -44,7 +44,7 @@ For more information about resizing, see [Cloud PC resizing overview](resize-clo
 1. Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), select **Devices** > **Windows 365** > **Provisioning policies**.
 2. Select a provisioning policy that includes an assignment with the Windows 365 Frontline Cloud PCs in dedicated mode that you want to resize.
 3. On the policy page, select **Edit** next to **Assignments**.
-4. On the **Assignments** tab, in the **Cloud PC size** column, select the Cloud PC Frontline entry that you want to resize.
+4. On the **Assignments** tab, in the **Cloud PC size** column, select the Cloud PC Frontline entry that you want to resize. All Cloud PCs in the assignment will be resized.
 5. In the **Select Cloud PC size** pane, under **Available sizes**, select the new Cloud PC size > **Next**.
 6. On the **Assignments** page, select **Next**.
 7. On the **Review + save** tab, select **Update** to initiate the resize.
