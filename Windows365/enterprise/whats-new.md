@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 04/28/2025
+ms.date: 04/30/2025
 ms.topic: whats-new
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -56,7 +56,7 @@ For more information about public preview items, see [Public preview in Windows 
 -->
 
 <!-- ########################## -->
-## Week of April 28, 2025
+## Week of April 28, 2025 (Service release 2504)
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Device management
@@ -64,6 +64,35 @@ For more information about public preview items, see [Public preview in Windows 
 #### Guidance when placing a Cloud PC under review<!--57214800-->
 
 Adhere to SEC Rule 17a-4 by configuring Azure Blob storage for immutability. For more information, see [Place a Cloud PC under review](place-cloud-pc-under-review.md) and [Azure - Cohasset Assessment - WORM Storage (2024) Report](https://servicetrust.microsoft.com/DocumentPage/19b08fd4-d276-43e8-9461-715981d0ea20).
+
+#### Resize Windows 365 Frontline Cloud PCs in designated mode<!--54353038-->
+
+Admins can now resize Windows 365 Frontline Cloud PCs in designated mode. For more information, see [Resize Windows 365 Frontline Cloud PCs in dedicated mode](resize-cloud-pc-frontline.md).
+
+#### Windows 365 Frontline dedicated mode concurrency management now generally available<!--56225850-->
+
+Windows 365 Frontline dedicated mode concurrency management has moved out of preview and into generally availability. For more information, see [Concurrency management](create-provisioning-policy.md#concurrency-management).
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Device security
+
+#### Credential Guard and HVCI enabled by default<!--554824970-->
+
+Newly provisioned and reprovisioned Cloud PCs running a Windows 11 gallery image now have VBS, HVCI, and Credential Guard enabled by default. For more information, see [Windows 365 security](security.md).
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Monitor and troubleshoot
+
+#### Connected Frontline Cloud PCs report is generally available<!--56225850-->
+
+The Connected Frontline Cloud PCs report has moved out of preview and into general availability. For more information, see [Connected Frontline Cloud PCs report](report-connected-frontline-cloud-pcs.md).
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Windows App
+
+#### Token protection (Preview) in Windows App on Windows devices<!--56337771--> 
+
+You can now use a Conditional Access policy to require token protection for sign-in tokens (refresh tokens) on Windows devices. Such policies can reduce attacks using token theft by ensuring a token is usable only from the intended device. For more information, see [Microsoft Entra Conditional Access token protection explained](/entra/identity/conditional-access/concept-token-protection).
 
 <!-- ########################## -->
 ## Week of April 21, 2025
