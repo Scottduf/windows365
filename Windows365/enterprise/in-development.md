@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 03/19/2025
+ms.date: 04/30/2025
 ms.topic: whats-new
 ms.service: windows-365
 
@@ -60,10 +60,6 @@ To help in your readiness and planning, this page lists Windows 365 updates and 
 
 In a future update, admins will have two options for disaster recovery: the existing cross region disaster recovery and the new disaster recovery plus. The latter allocates a second Cloud PC at the time of configuration which improves restore time objective (RTO). As the recovery Cloud PC already exists, there isn't a capacity risk at the time of failure.
 
-### Resize Windows 365 Frontline Cloud PCs in designated mode<!--54353038-->
-
-Admins will be able to resize Windows 365 Frontline Cloud PCs in designated mode.
-
 <!-- ***********************************************-->
 ## Device security
 
@@ -89,11 +85,7 @@ TURN relay support will be improved by expanding from 14 to over 40 regions glob
 End users will be able to manually run connectivity checks on their Cloud PCs from [windows365.microsoft.com](https://windows365.microsoft.com).
 
 <!-- ***********************************************-->
-## Provisioning
-
-### Credential Guard and HVCI enabled by default<!--554824970-->
-
-In a future update, newly provisioned and reprovisioned Cloud PCs will have Virtualization-based Security (VBS), Hypervisor-protected Code Integrity (HVCI), and Credential Guard enabled by default.
+<!--## Provisioning-->
 
 <!-- ***********************************************-->
 <!--## Security-->
