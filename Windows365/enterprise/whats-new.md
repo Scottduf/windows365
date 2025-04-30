@@ -81,7 +81,7 @@ Newly provisioned and reprovisioned Cloud PCs running a Windows 11 gallery image
 
 #### Connected Frontline Cloud PCs report is generally available<!--56225850-->
 
-The Connected Frontline Cloud PCs report has moved out of preview and into general availability. For more information, see [Connected Frontline Cloud PCs report](/report-connected-frontline-cloud-pcs.md).
+The Connected Frontline Cloud PCs report has moved out of preview and into general availability. For more information, see [Connected Frontline Cloud PCs report](report-connected-frontline-cloud-pcs.md).
 
 <!-- ########################## -->
 ## Week of April 21, 2025
