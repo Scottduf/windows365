@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 04/30/2025
+ms.date: 05/01/2025
 ms.topic: whats-new
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -68,10 +68,6 @@ Adhere to SEC Rule 17a-4 by configuring Azure Blob storage for immutability. For
 #### Resize Windows 365 Frontline Cloud PCs in designated mode<!--54353038-->
 
 Admins can now resize Windows 365 Frontline Cloud PCs in designated mode. For more information, see [Resize Windows 365 Frontline Cloud PCs in dedicated mode](resize-cloud-pc-frontline.md).
-
-#### Windows 365 Frontline dedicated mode concurrency management now generally available<!--56225850-->
-
-Windows 365 Frontline dedicated mode concurrency management has moved out of preview and into generally availability. For more information, see [Concurrency management](create-provisioning-policy.md#concurrency-management).
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Device security
