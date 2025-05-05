@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 04/02/2025
+ms.date: 05/05/2025
 ms.topic: how-to
 ms.service: windows-365
 ms.subservice:
@@ -45,7 +45,7 @@ For information on hardware requirements, see [End user hardware requirements](e
 
 ## Windows App
 
-Windows App is the recommended application to connect to Windows 365 Cloud PCs and can be used on any device. For more information about the requirements of running and using Windows App, see [What is Windows App?](/windows-app/overview).
+Windows App is the recommended application to connect to Windows 365 Cloud PCs and can be used on any device. For more information about the requirements of running and using Windows App, see [What is Windows App?](/windows-app/overview)
 
 ## Windows 365 web site
 
