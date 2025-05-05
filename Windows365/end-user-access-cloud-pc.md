@@ -45,7 +45,7 @@ For information on hardware requirements, see [End user hardware requirements](e
 
 ## Windows App
 
-For more information about the requirements of running and using Windows App, see [What is Windows App?](/windows-app/overview).
+Windows App is the recommended application to connect to Windows 365 Cloud PCs and can be used on any device. For more information about the requirements of running and using Windows App, see [What is Windows App?](/windows-app/overview).
 
 ## Windows 365 web site
 
@@ -245,9 +245,14 @@ The following Windows 365 features aren't available on LG TV:
 
 ## Remote Desktop
 
-The Microsoft Remote Desktop app lets users access and control a remote PC, including a Cloud PC.
+The Microsoft Remote Desktop app is an alternative to Windows App that lets users access and control a remote PC, including a Cloud PC.
 
 For a list of clients by operating system, see [Remote Desktop clients](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients). For a comparison of features by client, see [Compare the clients: features](/azure/virtual-desktop/compare-remote-desktop-clients).
+
+> [!IMPORTANT]  
+> Starting March 27, 2026, the Remote Desktop client for Windows (MSI) will no longer be supported. Users should begin migrating to Windows App to make sure they have continued access to their Azure Virtual Desktop and Windows 365 resources after this date. For mor information on known limitations of Windows App, see [Known issues and limitations of Windows App](/windows-app/troubleshoot-known-issues-limitations?tabs=windows). This list is updated as Remote Desktop client features are supported in Windows App.
+> Starting May 27, 2025, the Remote Desktop app for Windows from the Microsoft Store will no longer be supported or available for download and installation. Users must transition to Windows App to make sure they have continued access to Windows 365, Azure Virtual Desktop, and Microsoft Dev Box.
+> For more information, see [Get started with Windows App to connect to devices and apps](/windows-app/get-started-connect-devices-desktops-apps).
 
 ### Install the Microsoft Remote Desktop app
 
