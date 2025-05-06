@@ -88,7 +88,7 @@ Touchscreen devices require the touch screen keyboard to show during user sign-i
 
 When using Windows 365 Boot, a user's physical device disk drive is redirected to the Cloud PC at sign-in time. After that point, Cloud PC users can interact with the physical device.
 
-To prevent such drive redirection for Windows 365 Boot connections, you can include the Cloud PC in an assignment with Group Policy Objects or the Settings Catalog. For more information, see [Manage device RDP redirections for Cloud PCs](/windows-365/enterprise/manage-rdp-device-redirections).
+To prevent such drive redirection for Windows 365 Boot connections, you can include the Cloud PC in an assignment with Group Policy Objects or the Settings Catalog. For more information, see [Manage device Remote Desktop Protocol (RDP) redirections for Cloud PCs](/windows-365/enterprise/manage-rdp-device-redirections).
 
 <!-- ########################## -->
 ## Next steps
