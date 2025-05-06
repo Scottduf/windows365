@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 03/31/2025
+ms.date: 05/05/2025
 ms.topic: overview
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -83,6 +83,12 @@ Some applications on the Windows 365 Boot physical device might be configured to
 ## Improve sign-in on touch screen devices
 
 Touchscreen devices require the touch screen keyboard to show during user sign-in. On Windows 365 boot touch screen devices, you can improve the sign-in experience by using the [EnableTouchKeyboardAutoInvokeInDesktopMode CSP policy](/windows/client-management/mdm/policy-csp-textinput#enabletouchkeyboardautoinvokeindesktopmode).
+
+## Prevent users from accessing physical device drives
+
+In Windows 365 Boot, physical device's disk drive gets redirected to the Cloud PC upon logging in and Cloud PC users can interact with the physical device.
+
+To prevent drive redirection for Windows 365 Boot connections can do so by pushing a policy through GPO or Settings Catalog assigned the Cloud PC VM. To prevent this behavior, see [Manage device RDP redirections for Cloud PCs](/windows-365/enterprise/manage-rdp-device-redirections).
 
 <!-- ########################## -->
 ## Next steps
